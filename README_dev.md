@@ -41,4 +41,6 @@ npm install react
 npm install react-dom
 npm install axios
 npm install vite -D
+npm create vite@latest
+npm install cors
 ```
