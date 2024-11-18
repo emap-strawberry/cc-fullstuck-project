@@ -12,6 +12,8 @@
 
 ## 動かし方
 
+### `backend/`
+
 ```
 npm i mocha chai@4 chai-http@4 sinon -D
 npm install express
@@ -30,4 +32,13 @@ postgres-# \q
 npm run migrate
 npm run seed
 npm run start
+```
+
+### `frontend/`
+
+```
+npm install react
+npm install react-dom
+npm install axios
+npm install vite -D
 ```
