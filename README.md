@@ -13,7 +13,7 @@
 
 ## セットアップ手順
 
-0. リポジトリのクローンとパッケージインストール
+1. リポジトリのクローンとパッケージインストール
 
 ```
 git clone https://github.com/emap-strawberry/cc-fullstuck-project.git
@@ -21,7 +21,7 @@ cd cc-fullstuck-project
 npm i
 ```
 
-1. env ファイルの作成
+2. env ファイルの作成
    `cc-fullstuck-project/`に`.env.local`を作成し、以下を記載
 
 ```
@@ -32,7 +32,7 @@ PORT=3000
 VITE_API_BASE_URL = http://localhost:3000/api
 ```
 
-2. express サーバーの立ち上げ
+3. express サーバーの立ち上げ
 
 ```
 psql -U postgres
@@ -44,13 +44,13 @@ npm run seed
 npm run start
 ```
 
-2. vite の立ち上げ
+4. vite の立ち上げ
 
 ```
 npm run dev
 ```
 
-3. プレイ！
+5. プレイ！
 
 - ゲームを遊ぶ
   - http://localhost:5173/
