@@ -109,13 +109,15 @@ export default function NumberGuessingGame() {
             disabled={isGameOver}
             placeholder="例: 123"
           />
-          <button onClick={handleGuess}>判定</button>
+          <button onClick={handleGuess} className="btn">
+            判定
+          </button>
         </div>
       )}
       {isGameOver && <ResetGame resetGame={resetGame} />}
 
       <label htmlFor="item">{message}</label>
-      <h2>Results</h2>
+      <h2 className="results">Results</h2>
       <table className="history-table">
         <thead>
           <tr>

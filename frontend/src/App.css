@@ -24,9 +24,9 @@ body {
 }
 
 .btn {
-  background: rgba(255, 90, 0, 0.1);
-  border: 1px solid #ff5a00;
-  color: #ff5a00;
+  background: rgb(189, 245, 245);
+  border: 1px solid #00e5ff;
+  color: #0040ff;
   padding: 0.25em 0.5em;
   border-radius: 0.25em;
   cursor: pointer;
@@ -35,18 +35,7 @@ body {
 
 .btn:hover,
 .btn:focus-visible {
-  background: rgba(255, 90, 0, 0.2);
-}
-
-.btn.btn-danger {
-  background: rgba(255, 90, 0, 0.1);
-  border: 1px solid #ff5a00;
-  color: #ff5a00;
-}
-
-.btn.btn-danger:hover,
-.btn.btn-danger:focus-visible {
-  background: rgba(255, 90, 0, 0.2);
+  background: rgba(201, 201, 246, 0.8);
 }
 
 .new-item-form input {
@@ -66,7 +55,14 @@ body {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #007fba;
+  color: #2473fb;
+}
+
+.results {
+  /* font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem; */
+  color: #7f54fe;
 }
 
 .list {
